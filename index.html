@@ -1,0 +1,352 @@
+<!DOCTYPE HTML>
+<html lang="ro";>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Pop Mălina">
+        <meta name="keywords" content="concert, muzica, artisti">
+        <meta name="description" content="Stardust Nights” este un concert sau mini-festival de muzică pop, dance și indie, gândit să fie o experiență plină de magie, lumină și strălucire. Inspirat de conceptul de „pulbere de stele” și de farmecul nopților de vară, acest eveniment urmărește să creeze o atmosferă unică, în care muzica, lumina și decorul să transporte publicul într-o lume de basm.">
+        <title>Stardust Nights Concert</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bevan&family=Crimson+Text&family=Dancing+Script:wght@600&family=GFS+Didot&family=Merriweather:ital,wght@1,300&family=Noto+Serif+Display:wght@500&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bevan&family=Crimson+Text&family=Dancing+Script:wght@600&family=GFS+Didot&family=Merriweather:ital,wght@1,300&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
+   <style>
+    * {
+        font-family:'Noto Serif Display', 'Times New Roman', Times, serif;
+    }
+    .container {
+        background-color: rgb(112, 129, 164);
+    }
+
+    h1, h2, h3, p {
+        font-weight: bold;
+    }
+
+    .navbar-title { 
+        color: rgba(11, 11, 2, 0.894);
+    }
+
+    .nav-link{
+        font-weight: bold;
+        color: rgb(25, 37, 58);
+    }
+
+    .card-title{
+        font-weight:bold;
+    }
+
+    .carousel-caption p {
+        font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+        color: rgb(116, 187, 234);
+        font-size: 1rem;
+        font-size: 2vw;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+        background: rgba(188, 216, 241, 0.5);
+        padding: 10px;
+    }
+
+    .custom-carousel {
+    max-width: 65%; 
+    margin: auto;
+}
+
+    .custom-carousel .carousel-inner img {
+    width: 100%; 
+    margin-top: 10px;
+}
+
+    .custom-section{
+    background-color: rgb(138, 175, 200);
+}
+
+    .custom-section p {
+            padding: 20px;
+            margin-left: 15px;
+        }
+
+    .custom-section h2 {
+            text-align: center; 
+            font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+            text-shadow: 4px 4px 8px rgba(59, 139, 209, 0.5);
+            font-size: 2.5rem;
+        }
+
+    .custom-section h3 {
+            text-align: center; 
+            font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+        }
+
+    .custom-section img {
+            max-width: 100%; 
+            height: auto; 
+            margin-bottom: 15px; 
+            margin-top: 20px; 
+            border: 0.5px solid rgb(12, 25, 56);
+            
+        }
+
+    .custom-container {
+            margin-top: 5rem;
+        }
+
+    .custom-container h2{
+            font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+            font-size: 2.5rem;
+        }
+
+    .card {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            max-width: 35rem; 
+            border: 0.5px solid rgb(12, 25, 56);
+            background-color:rgb(163, 180, 191) ;
+        }
+
+    .center-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    .container-fluid {
+  margin: 0 auto; 
+  max-width: 1700px; 
+ 
+}
+
+.my-custom-section {
+            border: 2px solid #ccc;
+            padding: 20px; 
+            border-radius: 10px;
+            margin-top: 20px; 
+        }
+    
+ .narrow-section {
+            max-width: 600px; 
+            margin: auto; 
+        }
+
+    .social-icons a {
+  margin-right: 10px; 
+}
+
+    .footer .container-fluid p {
+  margin-bottom: 10px; 
+  color: rgb(25, 37, 58);
+}
+
+    .footer .container-fluid {
+    background-color: rgb(59, 82, 98);
+    padding: 20px; 
+  margin-top: 20px;
+}
+   
+    </style>
+</head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="music.png" alt="Logo" height="70">
+                    <h1 class="navbar-title">Stardust Nights Concert</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1">Despre concert</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">Line-up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3">Bilete</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section4">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section5">Locație</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <div id="myCarousel" class="carousel carousel-dark slide custom-carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="artist-dj.jpg" class="d-block w-100 mx-auto" alt="un dj care intretine atmosfera pe scena">
+                    <div class="carousel-caption d-block">
+                        <p>...muzica este limbajul sufletului</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="musician--1.jpg" class="d-block w-100 mx-auto" alt="un cantaret pe scena">
+                </div>
+                <div class="carousel-item">
+                    <img src="pexels-photo-342520.jpeg" class="d-block w-100 mx-auto" alt="multime care se distreaza la concert">
+                </div>
+                <div class="carousel-item">
+                    <img src="audience5.jpg" class="d-block w-100 mx-auto" alt="oameni in fata scenei ">
+                </div>
+                <div class="carousel-item">
+                    <img src="pexels-photo-976866.jpeg" class="d-block w-100 mx-auto" alt="persoane cu mainile ridicate la un concert">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="custom-section mt-5" id="section1">
+            <div class="row">
+                <div class="col-md-6 order-md-2">
+                    <img src="artist-monkey.jpg" alt="maimuta care canta la chitara" class="img-fluid">
+                </div>
+                <div class="col-md-6 custom-text-md-right">
+                    <h2>Conceptul Stardust Nights Concert</h2>
+                    <p>
+                        Stardust Nights Concert este mai mult decât un spectacol – este o călătorie prin muzică, lumină și
+                    emoție. Inspirat de strălucirea stelelor, evenimentul își propune să ofere o experiență completă,
+                    unde ritmurile electrizante se împletesc cu efecte vizuale spectaculoase și momente de conexiune
+                    unică între artiști și public.
+                    </p>
+                    <br>
+                    <h3>Unde are loc festivalul?</h3>
+                    <p>Stardust Nights Concert va avea loc în **Cluj-Napoca** pe **15 martie 2024**, la **BT Arena**. Evenimentul promite o seară spectaculoasă cu artiști de top din muzica electronică și dance, oferind o atmosferă vibrantă și plină de energie. Cu un mix de sunete cosmice și efecte vizuale uimitoare, concertul va aduce o experiență muzicală unică. Fanii muzicii electronice vor fi transportați într-o lume a ritmurilor captivante și a vibrațiilor electrizante.</p>
+                </div>
+            </div>
+        </div>
+        <div class="custom-container" id="section2">
+            <h2 class="text-center mb-4">Line-up</h2>
+            <div class="row">
+                <div class="col-md-6 center-card">
+                    <div class="card">
+                        <img src="artist-dj1.jpg" class="card-img-top" alt="un dj pe scena">
+                        <div class="card-body">
+                            <h3 class="card-title">DJ Aurora</h3>
+                            <p class="card-text">DJ Aurora este un nume care redefinește muzica electronică. Stilul său unic îmbină beat-uri hipnotice cu accente melodice neașteptate, creând experiențe sonore care transformă fiecare set într-o poveste. Cu o viziune artistică îndrăzneață și o energie care electrizează publicul, DJ Aurora a devenit simbolul noii generații de artiști care duc muzica electronică la un alt nivel.</p>
+                            <span class="badge bg-primary">Top artist 2024!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 center-card">
+                    <div class="card">
+                        <img src="pexels-photo-167446.jpeg" class="card-img-top" alt="un artist pe scena">
+                        <div class="card-body">
+                            <h3 class="card-title">Trupa Cosmic Vibes</h3>
+                            <p class="card-text">Cosmic Vibes este trupa care cucerește universul muzical cu un sound eclectic și o energie magnetică. Combinând influențe din rock alternativ, pop și muzică electronică, formația creează o atmosferă unică, în care fiecare piesă spune o poveste cosmică. Cu show-uri spectaculoase și o conexiune profundă cu publicul, Cosmic Vibes redefinește ideea de muzică modernă, transformând fiecare concert într-o călătorie interstelară a simțurilor.</p>
+                            <span class="badge bg-success">Cea mai bună performanță live!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-6 center-card">
+                    <div class="card">
+                        <img src="artist-band2.jpg" class="card-img-top" alt="o solista pe scena">
+                        <div class="card-body">
+                            <h3 class="card-title">Solista Star Light</h3>
+                            <p class="card-text">Star Light, solista cu o voce inconfundabilă și o prezență magnetică, a devenit rapid un nume de referință în muzica contemporană. Cunoscută pentru interpretările sale pline de emoție și stilul inovator, Star Light combină influențe din pop, soul și electro, creând piese care inspiră și fascinează. Cu fiecare apariție, reușește să lumineze scena și inimile fanilor din întreaga lume.</p>
+                            <span class="badge bg-warning">Cea mai bună artistă nouă!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 center-card">
+                    <div class="card">
+                        <img src="artist-musician.jpg" class="card-img-top" alt="cantaret care fumeaza in timp ce canta">
+                        <div class="card-body">
+                            <h3 class="card-title">Bandul Dreamwave </h3> 
+                            <p class="card-text">Dreamwave este un band inovator care îmbină cu măiestrie elemente de rock alternativ, synthwave și muzică electronică, creând un sound captivant și atmosferic. Cu un stil distinctiv și o energie vibrantă, Dreamwave transportă ascultătorii într-o călătorie sonoră plină de vibrații retro și momente de intensitate emoțională. Fiecare piesă a trupei rezonează cu un mix perfect între melancolie și optimism, consolidându-le statutul de trupa care redefinește muzica modernă. </p>
+                            <span class="badge bg-danger">Cea mai bună trupă nouă!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center mt-5" id="section3">
+            <h2>Bilete</h2>
+        
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Bilet General-100 lei</h3>
+                    <img src="silhouette.jpg" alt="o silueta care canta" class="img-fluid">
+                    <p>Biletul general îți oferă acces complet la atmosfera și distracția festivalului. Cu acest tip de bilet, te poți bucura de toate scenele și spectacolele, participi la activitățile din program și explorezi zonele de relaxare, food & drinks și shopping.  </p>
+                </div>
+        
+                <div class="col-md-6">
+                    <h3>Bilet VIP-250 lei</h3>
+                    <img src="pexels-photo-713149.jpeg" alt="lume la festival" class="img-fluid">
+                    <p>Alege biletul VIP pentru o experiență exclusivă la festival. Beneficiezi de acces rapid, zone dedicate cu spații aerisite, baruri și restaurante premium, toalete private și o vedere excelentă către scene. 
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center mt-5 my-custom-section narrow-section" id="section4">
+            <h2>Contact</h2>
+            <h3>Telefon</h3>
+            <p>+40 753 462 794</p>
+            <h3>E-mail:</h3>
+            <p>stardustnightsconcert.com</p>
+        </div>
+
+        <div class="container mt-5" id="section5">
+            <h2 class="text-center mb-4">Adresa Noastră</h2>
+            <div class="d-flex justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.4951118432195!2d23.616930875954154!3d46.77484754504366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c142c628b8f%3A0x8e5bd2c62d4b91a4!2sStrada%20Alexandru%20Vaida%20Voevod%2014%2C%20Cluj-Napoca%20400394!5e0!3m2!1sro!2sro!4v1732709483707!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+           </div> 
+        </div>
+        
+        
+        <div class="container-fluid">
+            <footer class="footer mt-auto py-3 bg-light text-center">
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-12 mt-2">
+                            <div class="social-icons mt-2">
+                                <a href="https://www.facebook.com/malina.pop.58" class="text-decoration-none"><img src="facebook.png" alt="Facebook"></a>
+                                <a href="https://www.instagram.com/malina__pop/" class="text-decoration-none"><img src="instagram (1).png" alt="Instagram"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-2">
+                            <p>office@stardustnights.ro</p>
+                        </div>
+                        <div class="col-md-12 mt-2">
+                            <p>© 2024 Stardust Inc. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
